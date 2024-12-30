@@ -23,7 +23,8 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "types": ["vitest", "vitest/globals"]
   },
   "include": ["vite.config.ts"]
 }
